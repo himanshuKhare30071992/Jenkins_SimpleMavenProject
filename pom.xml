@@ -15,7 +15,6 @@
   	
   <build>
   	<plugins>
-	    
 	    <plugin>
 	    	<groupId>org.codehaus.mojo</groupId>
    	 		<artifactId>exec-maven-plugin</artifactId>
@@ -28,14 +27,9 @@
     			</execution>
     		</executions>
     		<configuration>
-    		<mainClass>pages.TestJava</mainClass>
+    			<mainClass>pages.CoronaCases</mainClass>
     		</configuration>
-    		
-  		</plugin>
-  	
-  	
-  	
-  		
+    	</plugin>
   	</plugins>
   </build>
   
