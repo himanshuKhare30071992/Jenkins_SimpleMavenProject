@@ -21,7 +21,8 @@ public class CoronaCases
 		
 		WebElement confirmedCases = driver.findElement(By.xpath("//div[@class='level-item is-cherry fadeInUp']//h1"));
 		String totalCases = confirmedCases.getText();
-		System.out.println("=========Confirmed Corona Positive Cases till today = "+totalCases);
+		System.out.println("===> Confirmed Corona Positive Cases till today = "+totalCases);
+		System.out.println("User action needed to complete the job: Please click OK on dialog box present on desktop.... ");
 		driver.close();
 		
 		JOptionPane.showMessageDialog(null, totalCases , "India Confirmed Cases", JOptionPane.INFORMATION_MESSAGE);
